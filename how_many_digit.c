@@ -9,11 +9,14 @@ int main() {
     
     do {
         /* code */
+        int mod=num%10;
         num/=10;
+        
+        printf("%d",mod);
         c++;
     } while (num>0);
 
-    printf("%d\n",c);
+    printf("\n%d\n",c);
     
     return 0;
 }
